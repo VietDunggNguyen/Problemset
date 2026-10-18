@@ -1,6 +1,25 @@
 # ĐỀ BÀI: CẤU TRÚC DỮ LIỆU VÀ GIẢI THUẬT
 
+<!-- MUCLUC:START style=github (tự sinh bởi "python tools/add_problem.py toc", đừng sửa tay) -->
+
+**MỤC LỤC** · 8 chương · 246 bài
+
+| # | Chương | Số bài |
+|---:|---|---:|
+| 1 | [KIỂU DỮ LIỆU VÀ PHÉP TOÁN](#kiểu-dữ-liệu-và-phép-toán) | 18 |
+| 2 | [VÒNG LẶP](#vòng-lặp) | 66 |
+| 3 | [VIẾT HÀM](#viết-hàm) | 40 |
+| 4 | [CHƯA PHÂN LOẠI](#chưa-phân-loại) | 3 |
+| 5 | [MẢNG MỘT CHIỀU](#mảng-một-chiều) | 52 |
+| 6 | [MẢNG HAI CHIỀU](#mảng-hai-chiều) | 23 |
+| 7 | [XÂU KÝ TỰ](#xâu-ký-tự) | 31 |
+| 8 | [CẤU TRÚC](#cấu-trúc) | 13 |
+
+<!-- MUCLUC:END -->
+
 ## KIỂU DỮ LIỆU VÀ PHÉP TOÁN
+
+[⬆ Mục lục](#đề-bài-cấu-trúc-dữ-liệu-và-giải-thuật) · [VÒNG LẶP ➡](#vòng-lặp) <!-- nav -->
 
 ### C01001 - GẤP ĐÔI
 
@@ -341,6 +360,8 @@ Không có dữ liệu vào
 Hello PTIT.
 
 ## VÒNG LẶP
+
+[⬆ Mục lục](#đề-bài-cấu-trúc-dữ-liệu-và-giải-thuật) · [⬅ KIỂU DỮ LIỆU VÀ PHÉP TOÁN](#kiểu-dữ-liệu-và-phép-toán) · [VIẾT HÀM ➡](#viết-hàm) <!-- nav -->
 
 ### C01016 - BẢNG CỬU CHƯƠNG
 
@@ -1604,6 +1625,8 @@ OUT: tương ứng là 1 nếu số vị trí tương ứng đó là số nguyê
 
 ## VIẾT HÀM
 
+[⬆ Mục lục](#đề-bài-cấu-trúc-dữ-liệu-và-giải-thuật) · [⬅ VÒNG LẶP](#vòng-lặp) · [CHƯA PHÂN LOẠI ➡](#chưa-phân-loại) <!-- nav -->
+
 ### C03001 - TỔNG CHỮ SỐ CHIA HẾT CHO 10
 
 Viết chương trình kiểm tra một số có thỏa mãn tính chất tổng chữ số của nó chia hết cho 10 hay không.
@@ -2384,6 +2407,8 @@ Nếu số chữ số là chẵn thì in ra bội số chung nhỏ nhất của 
 
 ## CHƯA PHÂN LOẠI
 
+[⬆ Mục lục](#đề-bài-cấu-trúc-dữ-liệu-và-giải-thuật) · [⬅ VIẾT HÀM](#viết-hàm) · [MẢNG MỘT CHIỀU ➡](#mảng-một-chiều) <!-- nav -->
+
 ### C03037 - ĐẾM CHỮ SỐ NGUYÊN TỐ
 
 Viết chương trình nhập vào một số n, không quá 18 chữ số.
@@ -2438,6 +2463,8 @@ Mỗi dòng ghi kết quả của bộ test tương ứng
 Nhập vào số nguyên dương a có không quá 3 chữ số. Hãy in biểu diễn dưới dạng nhị phân của số a.
 
 ## MẢNG MỘT CHIỀU
+
+[⬆ Mục lục](#đề-bài-cấu-trúc-dữ-liệu-và-giải-thuật) · [⬅ CHƯA PHÂN LOẠI](#chưa-phân-loại) · [MẢNG HAI CHIỀU ➡](#mảng-hai-chiều) <!-- nav -->
 
 ### C04001 - SỐ CHẴN TRONG DÃY
 
@@ -3432,6 +3459,8 @@ Input: Dòng đầu là số testcase, mỗi testcase gồm 3 dòng với dòng 
 
 ## MẢNG HAI CHIỀU
 
+[⬆ Mục lục](#đề-bài-cấu-trúc-dữ-liệu-và-giải-thuật) · [⬅ MẢNG MỘT CHIỀU](#mảng-một-chiều) · [XÂU KÝ TỰ ➡](#xâu-ký-tự) <!-- nav -->
+
 ### C05001 - MA TRẬN CHUYỂN VỊ
 
 Viết chương trình nhập một ma trận số nguyên dương cỡ M\*N với 2&lt;N,M&lt;10, các số không quá 100. Hãy in ra chuyển vị của ma trận đó.
@@ -3957,6 +3986,8 @@ Ví dụ:
  0 0 0 0
 
 ## XÂU KÝ TỰ
+
+[⬆ Mục lục](#đề-bài-cấu-trúc-dữ-liệu-và-giải-thuật) · [⬅ MẢNG HAI CHIỀU](#mảng-hai-chiều) · [CẤU TRÚC ➡](#cấu-trúc) <!-- nav -->
 
 ### C06003 - ĐẾM SỐ TỪ TRONG XÂU
 
@@ -4601,6 +4632,8 @@ In:
  0
 
 ## CẤU TRÚC
+
+[⬆ Mục lục](#đề-bài-cấu-trúc-dữ-liệu-và-giải-thuật) · [⬅ XÂU KÝ TỰ](#xâu-ký-tự) <!-- nav -->
 
 ### C06026 - TÌM TỪ THUẬN NGHỊCH DÀI NHẤT
 

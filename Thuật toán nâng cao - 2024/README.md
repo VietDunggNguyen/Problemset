@@ -1,6 +1,44 @@
 # ĐỀ BÀI: THUẬT TOÁN NÂNG CAO - 2024
 
+<!-- MUCLUC:START style=github (tự sinh bởi "python tools/add_problem.py toc", đừng sửa tay) -->
+
+**MỤC LỤC** · 27 chương · 325 bài
+
+| # | Chương | Số bài |
+|---:|---|---:|
+| 1 | [DUYỆT ĐỒ THỊ](#duyệt-đồ-thị) | 7 |
+| 2 | [CHƯA PHÂN LOẠI](#chưa-phân-loại) | 2 |
+| 3 | [ĐỒ THỊ CƠ BẢN VÀ NÂNG CAO](#đồ-thị-cơ-bản-và-nâng-cao) | 10 |
+| 4 | [ĐỒ THỊ CÓ TRỌNG SỐ](#đồ-thị-có-trọng-số) | 18 |
+| 5 | [ÔN TẬP CÁC THUẬT TOÁN CƠ BẢN](#ôn-tập-các-thuật-toán-cơ-bản) | 139 |
+| 6 | [CÂY NHỊ PHÂN VÀ CÂY NHỊ PHÂN TÌM KIẾM](#cây-nhị-phân-và-cây-nhị-phân-tìm-kiếm) | 20 |
+| 7 | [QUY HOẠCH ĐỘNG](#quy-hoạch-động) | 20 |
+| 8 | [THUẬT TOÁN QUY HOẠCH ĐỘNG](#thuật-toán-quy-hoạch-động) | 42 |
+| 9 | [NGĂN XẾP - HÀNG ĐỢI](#ngăn-xếp---hàng-đợi) | 8 |
+| 10 | [NGĂN XẾP VÀ HÀNG ĐỢI](#ngăn-xếp-và-hàng-đợi) | 12 |
+| 11 | [CÁC CẤU TRÚC DỮ LIỆU NÂNG CAO](#các-cấu-trúc-dữ-liệu-nâng-cao) | 10 |
+| 12 | [KIỂU DỮ LIỆU VÀ PHÉP TOÁN](#kiểu-dữ-liệu-và-phép-toán) | 1 |
+| 13 | [VÒNG LẶP](#vòng-lặp) | 2 |
+| 14 | [VIẾT HÀM](#viết-hàm) | 4 |
+| 15 | [LẬP TRÌNH CƠ BẢN](#lập-trình-cơ-bản) | 2 |
+| 16 | [DYNAMIC PROGRAMMING](#dynamic-programming) | 2 |
+| 17 | [STACK](#stack) | 1 |
+| 18 | [GRAPH](#graph) | 8 |
+| 19 | [DANH SÁCH](#danh-sách) | 5 |
+| 20 | [MẢNG](#mảng) | 1 |
+| 21 | [XÂU KÝ TỰ](#xâu-ký-tự) | 1 |
+| 22 | [CÂU LỆNH ĐIỀU KHIỂN](#câu-lệnh-điều-khiển) | 1 |
+| 23 | [BIẾN VÀ KIỂU DỮ LIỆU ĐƠN GIẢN](#biến-và-kiểu-dữ-liệu-đơn-giản) | 1 |
+| 24 | [HÀNG ĐỢI](#hàng-đợi) | 3 |
+| 25 | [NGĂN XẾP](#ngăn-xếp) | 1 |
+| 26 | [ĐỒ THỊ](#đồ-thị) | 3 |
+| 27 | [LÀM QUEN LẬP TRÌNH THI ĐẤU](#làm-quen-lập-trình-thi-đấu) | 1 |
+
+<!-- MUCLUC:END -->
+
 ## DUYỆT ĐỒ THỊ
+
+[⬆ Mục lục](#đề-bài-thuật-toán-nâng-cao---2024) · [CHƯA PHÂN LOẠI ➡](#chưa-phân-loại) <!-- nav -->
 
 ### 1179 - DFS TRÊN ĐỒ THỊ VÔ HƯỚNG
 
@@ -144,6 +182,8 @@ Cho đồ thị vô hướng G= được biểu diễn dưới dạng danh sách
 
 ## CHƯA PHÂN LOẠI
 
+[⬆ Mục lục](#đề-bài-thuật-toán-nâng-cao---2024) · [⬅ DUYỆT ĐỒ THỊ](#duyệt-đồ-thị) · [ĐỒ THỊ CƠ BẢN VÀ NÂNG CAO ➡](#đồ-thị-cơ-bản-và-nâng-cao) <!-- nav -->
+
 ### 1186 - TÌM ĐƯỜNG ĐI THEO BFS TRÊN ĐỒ THỊ CÓ HƯỚNG
 
 Cho đồ thị có hướng G= được biểu diễn dưới dạng danh sách cạnh. Hãy tìm đường đi từ đỉnh uÎV đến đỉnh vÎV trên đồ thị bằng thuật toán BFS.
@@ -187,6 +227,8 @@ Số lớn nhất bậc K của N được định nghĩa là giá trị lớn n
 | 3    4    1234567    3    3435335    2    1034 | 7654321    5543333    4301 |
 
 ## ĐỒ THỊ CƠ BẢN VÀ NÂNG CAO
+
+[⬆ Mục lục](#đề-bài-thuật-toán-nâng-cao---2024) · [⬅ CHƯA PHÂN LOẠI](#chưa-phân-loại) · [ĐỒ THỊ CÓ TRỌNG SỐ ➡](#đồ-thị-có-trọng-số) <!-- nav -->
 
 ### 1205 - TÔ MÀU ĐỒ THỊ
 
@@ -419,6 +461,8 @@ Ghi ra các đỉnh không liên thông với đỉnh 1 theo thứ tự tăng d�
 | 6 4  1 3  2 3  1 2  4 5 | 4  5  6 |
 
 ## ĐỒ THỊ CÓ TRỌNG SỐ
+
+[⬆ Mục lục](#đề-bài-thuật-toán-nâng-cao---2024) · [⬅ ĐỒ THỊ CƠ BẢN VÀ NÂNG CAO](#đồ-thị-cơ-bản-và-nâng-cao) · [ÔN TẬP CÁC THUẬT TOÁN CƠ BẢN ➡](#ôn-tập-các-thuật-toán-cơ-bản) <!-- nav -->
 
 ### 1214 - KRUSKAL
 
@@ -874,6 +918,8 @@ Khoảng cách bạn 3 phải di chuyển là 8.
 Khoảng cách bạn 4 phải di chuyển là 7.
 
 ## ÔN TẬP CÁC THUẬT TOÁN CƠ BẢN
+
+[⬆ Mục lục](#đề-bài-thuật-toán-nâng-cao---2024) · [⬅ ĐỒ THỊ CÓ TRỌNG SỐ](#đồ-thị-có-trọng-số) · [CÂY NHỊ PHÂN VÀ CÂY NHỊ PHÂN TÌM KIẾM ➡](#cây-nhị-phân-và-cây-nhị-phân-tìm-kiếm) <!-- nav -->
 
 ### 1309 - XÂU NHỊ PHÂN KẾ TIẾP
 
@@ -4233,6 +4279,8 @@ In ra “First” nếu người đi trước là người chiến thắng, in r
 
 ## CÂY NHỊ PHÂN VÀ CÂY NHỊ PHÂN TÌM KIẾM
 
+[⬆ Mục lục](#đề-bài-thuật-toán-nâng-cao---2024) · [⬅ ÔN TẬP CÁC THUẬT TOÁN CƠ BẢN](#ôn-tập-các-thuật-toán-cơ-bản) · [QUY HOẠCH ĐỘNG ➡](#quy-hoạch-động) <!-- nav -->
+
 ### 1410 - DUYỆT CÂY 1
 
 Cho phép duyệt cây nhị phân Inorder và Preorder, hãy đưa ra kết quả phép duyệt Postorder của cây nhị phân. Ví dụ với cây nhị phân có các phép duyệt cây nhị phân của cây dưới đây:
@@ -4650,6 +4698,8 @@ Hãy xây dựng một cây nhị phân tìm kiếm cân bằng từ dãy số A
 
 ## QUY HOẠCH ĐỘNG
 
+[⬆ Mục lục](#đề-bài-thuật-toán-nâng-cao---2024) · [⬅ CÂY NHỊ PHÂN VÀ CÂY NHỊ PHÂN TÌM KIẾM](#cây-nhị-phân-và-cây-nhị-phân-tìm-kiếm) · [THUẬT TOÁN QUY HOẠCH ĐỘNG ➡](#thuật-toán-quy-hoạch-động) <!-- nav -->
+
 ### 1450 - BÀI 1. XÂU CON CHUNG DÀI NHẤT
 
 Cho 2 xâu S1 và S2. Hãy tìm xâu con chung dài nhất của 2 xâu này *(các phần tử không nhất thiết phải liên tiếp nhau).*
@@ -5063,6 +5113,8 @@ Cho một bảng số N hàng, M cột chỉ gồm 0 và 1. Bạn hãy tìm hìn
 | 2  6 5  0 1 1 0 1  1 1 0 1 0  0 1 1 1 0  1 1 1 1 0  1 1 1 1 1  0 0 0 0 0  2 2  0 0  0 0 | 3  0 |
 
 ## THUẬT TOÁN QUY HOẠCH ĐỘNG
+
+[⬆ Mục lục](#đề-bài-thuật-toán-nâng-cao---2024) · [⬅ QUY HOẠCH ĐỘNG](#quy-hoạch-động) · [NGĂN XẾP - HÀNG ĐỢI ➡](#ngăn-xếp---hàng-đợi) <!-- nav -->
 
 ### 1464 - BÀI 15. BÀI TOÁN CÁI TÚI KHÔNG NGUYÊN
 
@@ -6005,6 +6057,8 @@ Giải thích test 2: Có 5 cách lần lượt là: (1, 1, 1, 1), (1, 1, 2), (1
 
 ## NGĂN XẾP - HÀNG ĐỢI
 
+[⬆ Mục lục](#đề-bài-thuật-toán-nâng-cao---2024) · [⬅ THUẬT TOÁN QUY HOẠCH ĐỘNG](#thuật-toán-quy-hoạch-động) · [NGĂN XẾP VÀ HÀNG ĐỢI ➡](#ngăn-xếp-và-hàng-đợi) <!-- nav -->
+
 ### 1514 - SỬA LẠI DÃY NGOẶC
 
 Cho một xâu chỉ gồm các kí tự ‘(‘, ‘) và có độ dài chẵn. Hãy đếm số lượng dấu ngoặc cần phải đổi chiều ít nhất, sao cho xâu mới thu được là một dãy ngoặc đúng.
@@ -6185,6 +6239,8 @@ Số BDN của N là số P =M´N sao cho P là số BDN. Cho số tự nhiên N
 | 3  2  12  17 | 10  11100  11101 |
 
 ## NGĂN XẾP VÀ HÀNG ĐỢI
+
+[⬆ Mục lục](#đề-bài-thuật-toán-nâng-cao---2024) · [⬅ NGĂN XẾP - HÀNG ĐỢI](#ngăn-xếp---hàng-đợi) · [CÁC CẤU TRÚC DỮ LIỆU NÂNG CAO ➡](#các-cấu-trúc-dữ-liệu-nâng-cao) <!-- nav -->
 
 ### 1517 - BÀI 4. BIẾN ĐỔI TRUNG TỐ - HẬU TỐ
 
@@ -6479,6 +6535,8 @@ Dòng đầu ghi số bộ test (không quá 100). Với mỗi bộ test:
 
 ## CÁC CẤU TRÚC DỮ LIỆU NÂNG CAO
 
+[⬆ Mục lục](#đề-bài-thuật-toán-nâng-cao---2024) · [⬅ NGĂN XẾP VÀ HÀNG ĐỢI](#ngăn-xếp-và-hàng-đợi) · [KIỂU DỮ LIỆU VÀ PHÉP TOÁN ➡](#kiểu-dữ-liệu-và-phép-toán) <!-- nav -->
+
 ### 1545 - GIÁ TRỊ LỚN NHẤT
 
 Cho dãy số gồm N phần tử có giá trị ban đầu bằng 0.
@@ -6722,6 +6780,8 @@ Cho một cây có N đỉnh. Mỗi đỉnh có trọng số w\[i\]. Có M truy 
 
 ## KIỂU DỮ LIỆU VÀ PHÉP TOÁN
 
+[⬆ Mục lục](#đề-bài-thuật-toán-nâng-cao---2024) · [⬅ CÁC CẤU TRÚC DỮ LIỆU NÂNG CAO](#các-cấu-trúc-dữ-liệu-nâng-cao) · [VÒNG LẶP ➡](#vòng-lặp) <!-- nav -->
+
 ### C01025 - HÌNH VUÔNG NHỎ NHẤT
 
 Cho 2 hình chữ nhật trên mặt phẳng Oxy. Cần tìm hình vuông có kích thước nhỏ nhất sao cho phủ kín được 2 hình chữ nhật đã cho.
@@ -6741,6 +6801,8 @@ In ra diện tích của hình vuông tìm được.
 | 6 6 8 8  1 8 4 9 | 49 |
 
 ## VÒNG LẶP
+
+[⬆ Mục lục](#đề-bài-thuật-toán-nâng-cao---2024) · [⬅ KIỂU DỮ LIỆU VÀ PHÉP TOÁN](#kiểu-dữ-liệu-và-phép-toán) · [VIẾT HÀM ➡](#viết-hàm) <!-- nav -->
 
 ### C01052 - ƯỚC SỐ CHIA HẾT CHO 2
 
@@ -6771,6 +6833,8 @@ Cho hai số L, R. Nhiệm vụ của bạn là hãy đếm tất cả các số
 | 2  1 10  1 1000000000000 | 2  78498 |
 
 ## VIẾT HÀM
+
+[⬆ Mục lục](#đề-bài-thuật-toán-nâng-cao---2024) · [⬅ VÒNG LẶP](#vòng-lặp) · [LẬP TRÌNH CƠ BẢN ➡](#lập-trình-cơ-bản) <!-- nav -->
 
 ### C03038 - ƯỚC SỐ CỦA GIAI THỪA
 
@@ -6858,6 +6922,8 @@ Nếu số chữ số là chẵn thì in ra bội số chung nhỏ nhất của 
 
 ## LẬP TRÌNH CƠ BẢN
 
+[⬆ Mục lục](#đề-bài-thuật-toán-nâng-cao---2024) · [⬅ VIẾT HÀM](#viết-hàm) · [DYNAMIC PROGRAMMING ➡](#dynamic-programming) <!-- nav -->
+
 ### CP01003 - SỐ THUẦN NGUYÊN TỐ
 
 Một số được coi là thuần nguyên tố nếu nó là số nguyên tố, tất cả các chữ số là nguyên tố và tổng chữ số của nó cũng là một số nguyên tố. Bài toán đặt ra là đếm xem trong một đoạn giữa hai số nguyên cho trước có bao nhiêu số thuần nguyên tố.
@@ -6896,6 +6962,8 @@ Với mỗi test in ra trên mỗi dòng một số nguyên là đáp án của 
 
 ## DYNAMIC PROGRAMMING
 
+[⬆ Mục lục](#đề-bài-thuật-toán-nâng-cao---2024) · [⬅ LẬP TRÌNH CƠ BẢN](#lập-trình-cơ-bản) · [STACK ➡](#stack) <!-- nav -->
+
 ### DSA05008 - DÃY CON CÓ TỔNG BẰNG S
 
 Cho N số nguyên dương tạo thành dãy A={A1, A2, ..., AN}. Tìm ra một dãy con của dãy A (không nhất thiết là các phần tử liên tiếp trong dãy) có tổng bằng S cho trước.
@@ -6932,6 +7000,8 @@ Có N ngôi nhà trên một dãy phố, mỗi ngôi nhà chứa đựng một s
 
 ## STACK
 
+[⬆ Mục lục](#đề-bài-thuật-toán-nâng-cao---2024) · [⬅ DYNAMIC PROGRAMMING](#dynamic-programming) · [GRAPH ➡](#graph) <!-- nav -->
+
 ### DSA07028 - NHỊP CHỨNG KHOÁN
 
 Bạn là một nhà đầu tư chứng khoán nổi tiếng. Nhiệm vụ hàng ngày của bạn là tính nhịp tăng giảm của phiên chứng khoán trong N ngày để có thể bắt kịp thị trường. Nhịp chứng khoán của ngày thứ i được định nghĩa là số ngày liên tiếp từ ngày thứ i trở về mà giá chứng khoán bé hơn hoặc bằng với giá chứng khoán của ngày i.
@@ -6952,6 +7022,8 @@ Bạn là một nhà đầu tư chứng khoán nổi tiếng. Nhiệm vụ hàng
 | 1  7  100 80 60 70 60 75 85 | 1 1 1 2 1 4 6 |
 
 ## GRAPH
+
+[⬆ Mục lục](#đề-bài-thuật-toán-nâng-cao---2024) · [⬅ STACK](#stack) · [DANH SÁCH ➡](#danh-sách) <!-- nav -->
 
 ### DSA09010 - KIỂM TRA TÍNH LIÊN THÔNG MẠNH
 
@@ -7130,6 +7202,8 @@ Cho đồ thị vô hướng có trọng số G=&lt;V, E, W&gt;. Nhiệm vụ c�
 
 ## DANH SÁCH
 
+[⬆ Mục lục](#đề-bài-thuật-toán-nâng-cao---2024) · [⬅ GRAPH](#graph) · [MẢNG ➡](#mảng) <!-- nav -->
+
 ### ICPC0101 - THU GỌN DÃY SỐ
 
 Cho dãy số A\[\] chỉ bao gồm các số nguyên dương. Người ta thu gọn dần dãy số bằng cách loại bỏ các cặp phần tử kề nhau mà có tổng là chẵn. Sau khi cặp phần tử đó bị loại ra thì dãy số được dồn lại. Cứ tiếp tục như vậy cho đến khi không còn cặp phần tử nào kề nhau có tổng chẵn nữa.
@@ -7252,6 +7326,8 @@ Với mỗi test, in ra “YES” nếu có thể và “NO” trong trường h
 
 ## MẢNG
 
+[⬆ Mục lục](#đề-bài-thuật-toán-nâng-cao---2024) · [⬅ DANH SÁCH](#danh-sách) · [XÂU KÝ TỰ ➡](#xâu-ký-tự) <!-- nav -->
+
 ### J02005 - GIAO CỦA HAI DÃY SỐ
 
 Cho dãy số a\[\] có n phần tử và dãy số b\[\] có m phần tử là các số nguyên dương nhỏ hơn 1000. Gọi tập hợp A là tập các số khác nhau trong a\[\], tập hợp B là tập các số khác nhau trong b\[\].
@@ -7280,6 +7356,8 @@ Ghi tập giao của A và B trên một dòng theo thứ tự từ nhỏ đến
 
 ## XÂU KÝ TỰ
 
+[⬆ Mục lục](#đề-bài-thuật-toán-nâng-cao---2024) · [⬅ MẢNG](#mảng) · [CÂU LỆNH ĐIỀU KHIỂN ➡](#câu-lệnh-điều-khiển) <!-- nav -->
+
 ### J03038 - ĐÁNH DẤU CHỮ CÁI
 
 Cho một xâu ký tự S chỉ có các chữ cái Tiếng Anh viết thường. Hãy đếm xem có bao nhiêu ký tự chữ cái khác nhau trong S.
@@ -7295,6 +7373,8 @@ Cho một xâu ký tự S chỉ có các chữ cái Tiếng Anh viết thường
 | banana | 3 |
 
 ## CÂU LỆNH ĐIỀU KHIỂN
+
+[⬆ Mục lục](#đề-bài-thuật-toán-nâng-cao---2024) · [⬅ XÂU KÝ TỰ](#xâu-ký-tự) · [BIẾN VÀ KIỂU DỮ LIỆU ĐƠN GIẢN ➡](#biến-và-kiểu-dữ-liệu-đơn-giản) <!-- nav -->
 
 ### PY01065 - PHÉP TOÁN CƠ BẢN
 
@@ -7321,6 +7401,8 @@ Với mỗi bộ test, ghi ra biểu thức đúng tìm được. Hoặc WRONG P
 | 2    ?0 ? 12 = 28    40 / ?3 = ?? | 40 - 12 = 28  WRONG PROBLEM! |
 
 ## BIẾN VÀ KIỂU DỮ LIỆU ĐƠN GIẢN
+
+[⬆ Mục lục](#đề-bài-thuật-toán-nâng-cao---2024) · [⬅ CÂU LỆNH ĐIỀU KHIỂN](#câu-lệnh-điều-khiển) · [HÀNG ĐỢI ➡](#hàng-đợi) <!-- nav -->
 
 ### PY01074 - TỔNG ƯỚC SỐ
 
@@ -7357,6 +7439,8 @@ In ra một số nguyên là đáp án tìm được.
 *Cộng lại, 7 + 6 + 7 + 13 + 14 = 47.*
 
 ## HÀNG ĐỢI
+
+[⬆ Mục lục](#đề-bài-thuật-toán-nâng-cao---2024) · [⬅ BIẾN VÀ KIỂU DỮ LIỆU ĐƠN GIẢN](#biến-và-kiểu-dữ-liệu-đơn-giản) · [NGĂN XẾP ➡](#ngăn-xếp) <!-- nav -->
 
 ### S213 - SỐ LỘC PHÁT
 
@@ -7431,6 +7515,8 @@ Cho một bảng số kích thước N x M. Chi phí khi đi qua ô (i,j) bằng
 
 ## NGĂN XẾP
 
+[⬆ Mục lục](#đề-bài-thuật-toán-nâng-cao---2024) · [⬅ HÀNG ĐỢI](#hàng-đợi) · [ĐỒ THỊ ➡](#đồ-thị) <!-- nav -->
+
 ### S226 - BIỂU THỨC ĐÚNG
 
 Cho biểu thức số học bất kỳ. Nhiệm vụ của bạn là xác định độ dài lớn nhất của các cặp đóng mở ngoặc đúng lồng nhau. Ví dụ với biểu thức P = “( ((X)) (((Y))) )” ta có độ dài các cặp đóng mở ngoặc lồng nhau đúng là 4.
@@ -7453,6 +7539,8 @@ Nếu biểu thức không đúng hãy đưa ra -1.
 | 2  (((X))(((Y))))  (b)((c)() | 4  -1 |
 
 ## ĐỒ THỊ
+
+[⬆ Mục lục](#đề-bài-thuật-toán-nâng-cao---2024) · [⬅ NGĂN XẾP](#ngăn-xếp) · [LÀM QUEN LẬP TRÌNH THI ĐẤU ➡](#làm-quen-lập-trình-thi-đấu) <!-- nav -->
 
 ### S301 - ĐƯỜNG ĐI CÓ HƯỚNG
 
@@ -7526,6 +7614,8 @@ Hãy xác định một mạng xã hội có phải là hoàn hảo hay không? 
 | 3  4 3  1 3  3 4  1 4  4 4  3 1  2 3  3 4  1 2  10 4  4 3  5 10  8 9  1 2 | YES  NO  YES |
 
 ## LÀM QUEN LẬP TRÌNH THI ĐẤU
+
+[⬆ Mục lục](#đề-bài-thuật-toán-nâng-cao---2024) · [⬅ ĐỒ THỊ](#đồ-thị) <!-- nav -->
 
 ### S52 - BIỂU DIỄN SỐ K
 

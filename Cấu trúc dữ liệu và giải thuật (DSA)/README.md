@@ -1,6 +1,30 @@
 # ĐỀ BÀI: CẤU TRÚC DỮ LIỆU VÀ GIẢI THUẬT
 
+<!-- MUCLUC:START style=github (tự sinh bởi "python tools/add_problem.py toc", đừng sửa tay) -->
+
+**MỤC LỤC** · 13 chương · 365 bài
+
+| # | Chương | Số bài |
+|---:|---|---:|
+| 1 | [KIỂU DỮ LIỆU VÀ PHÉP TOÁN](#kiểu-dữ-liệu-và-phép-toán) | 1 |
+| 2 | [NEXT GENERATION ALGORITHM](#next-generation-algorithm) | 29 |
+| 3 | [SORTING AND SEARCHING](#sorting-and-searching) | 47 |
+| 4 | [LÀM QUEN LẬP TRÌNH THI ĐẤU](#làm-quen-lập-trình-thi-đấu) | 14 |
+| 5 | [RECURSION AND BACKTRACKING](#recursion-and-backtracking) | 42 |
+| 6 | [LẬP TRÌNH CƠ BẢN](#lập-trình-cơ-bản) | 1 |
+| 7 | [GREEDY ALGORITHM](#greedy-algorithm) | 30 |
+| 8 | [DEVIDE AND CONQUER ALGORITHM](#devide-and-conquer-algorithm) | 26 |
+| 9 | [DYNAMIC PROGRAMMING](#dynamic-programming) | 43 |
+| 10 | [STACK](#stack) | 29 |
+| 11 | [QUEUE](#queue) | 26 |
+| 12 | [GRAPH](#graph) | 49 |
+| 13 | [BINARY TREE](#binary-tree) | 28 |
+
+<!-- MUCLUC:END -->
+
 ## KIỂU DỮ LIỆU VÀ PHÉP TOÁN
+
+[⬆ Mục lục](#đề-bài-cấu-trúc-dữ-liệu-và-giải-thuật) · [NEXT GENERATION ALGORITHM ➡](#next-generation-algorithm) <!-- nav -->
 
 ### CHELLO - HELLO WORLD
 
@@ -17,6 +41,8 @@ Không có dữ liệu vào
 Hello PTIT.
 
 ## NEXT GENERATION ALGORITHM
+
+[⬆ Mục lục](#đề-bài-cấu-trúc-dữ-liệu-và-giải-thuật) · [⬅ KIỂU DỮ LIỆU VÀ PHÉP TOÁN](#kiểu-dữ-liệu-và-phép-toán) · [SORTING AND SEARCHING ➡](#sorting-and-searching) <!-- nav -->
 
 ### CTDL_001 - THUẬT TOÁN SINH
 
@@ -585,6 +611,8 @@ Cho ma trận vuông Ci,j cấp N (*1&lt;= i, j &lt;= N&lt;10*) gồm N2 số t�
 | 3 10  2 4 3  1 3 6  4 2 4 | 2  1 3 2  3 2 1 |
 
 ## SORTING AND SEARCHING
+
+[⬆ Mục lục](#đề-bài-cấu-trúc-dữ-liệu-và-giải-thuật) · [⬅ NEXT GENERATION ALGORITHM](#next-generation-algorithm) · [LÀM QUEN LẬP TRÌNH THI ĐẤU ➡](#làm-quen-lập-trình-thi-đấu) <!-- nav -->
 
 ### CTDL_005 - XÓA DỮ LIỆU TRONG DSLK ĐƠN
 
@@ -1516,6 +1544,8 @@ Cho mảng A\[\] gồm n số nguyên dương và số k. Nhiệm vụ của b�
 
 ## LÀM QUEN LẬP TRÌNH THI ĐẤU
 
+[⬆ Mục lục](#đề-bài-cấu-trúc-dữ-liệu-và-giải-thuật) · [⬅ SORTING AND SEARCHING](#sorting-and-searching) · [RECURSION AND BACKTRACKING ➡](#recursion-and-backtracking) <!-- nav -->
+
 ### DSA_P029 - HÀNH TRÌNH DU LỊCH - 1
 
 Trong kì nghỉ hè năm nay Tí được bố thưởng cho 1 tour du lịch quanh N đất nước tươi đẹp với nhiều thắng cảnh nổi tiếng. Tất nhiên Tí sẽ đi bằng máy bay.
@@ -1823,6 +1853,8 @@ Với mỗi test, in ra trên một dòng N số R\[i\], với R\[i\] là giá t
 | 3  4  4 5 2 25  3  2 2 2  4  4 4 5 5 | 5 25 25 -1  -1 -1 -1  5 5 -1 -1 |
 
 ## RECURSION AND BACKTRACKING
+
+[⬆ Mục lục](#đề-bài-cấu-trúc-dữ-liệu-và-giải-thuật) · [⬅ LÀM QUEN LẬP TRÌNH THI ĐẤU](#làm-quen-lập-trình-thi-đấu) · [LẬP TRÌNH CƠ BẢN ➡](#lập-trình-cơ-bản) <!-- nav -->
 
 ### DSA01024 - ĐẶT TÊN - 1
 
@@ -2726,6 +2758,8 @@ Nếu không thể tìm được kết quả, in ra -1.
 
 ## LẬP TRÌNH CƠ BẢN
 
+[⬆ Mục lục](#đề-bài-cấu-trúc-dữ-liệu-và-giải-thuật) · [⬅ RECURSION AND BACKTRACKING](#recursion-and-backtracking) · [GREEDY ALGORITHM ➡](#greedy-algorithm) <!-- nav -->
+
 ### DSA02003 - DI CHUYỂN TRONG MÊ CUNG 1
 
 Cho một mê cung bao gồm các khối được biểu diễn như một ma trận nhị phân A\[N\]\[N\]. Một con chuột đi từ ô đầu tiên góc trái (A\[0\]\[0\]) đến ô cuối cùng góc phải (A\[N-1\]\[N-1\]) theo nguyên tắc:
@@ -2750,6 +2784,8 @@ Hãy đưa ra một hành trình của con chuột trên mê cung. Đưa ra -1 n
 | 2  4  1 0 0 0  1 1 0 1  0 1 0 0  1 1 1 1  5  1 0 0 0 0  1 1 1 1 1  1 1 0 0 1  0 1 1 1 1  0 0 0 1 1 | DRDDRR  DDRDRRDR DDRDRRRD DRDDRRDR DRDDRRRD DRRRRDDD |
 
 ## GREEDY ALGORITHM
+
+[⬆ Mục lục](#đề-bài-cấu-trúc-dữ-liệu-và-giải-thuật) · [⬅ LẬP TRÌNH CƠ BẢN](#lập-trình-cơ-bản) · [DEVIDE AND CONQUER ALGORITHM ➡](#devide-and-conquer-algorithm) <!-- nav -->
 
 ### DSA03001 - ĐỔI TIỀN
 
@@ -3382,6 +3418,8 @@ Hãy tính số bước tối thiểu cần thực hiện để hoàn thành vi�
 
 ## DEVIDE AND CONQUER ALGORITHM
 
+[⬆ Mục lục](#đề-bài-cấu-trúc-dữ-liệu-và-giải-thuật) · [⬅ GREEDY ALGORITHM](#greedy-algorithm) · [DYNAMIC PROGRAMMING ➡](#dynamic-programming) <!-- nav -->
+
 ### DSA04001 - LŨY THỪA
 
 Cho số nguyên dương N và K. Hãy tính NK modulo 109+7.
@@ -3963,6 +4001,8 @@ Với mỗi test ghi ra kết quả tính được trên một dòng.
 | 2 3  2 4  3 2  0 0 | 8  16  9 |
 
 ## DYNAMIC PROGRAMMING
+
+[⬆ Mục lục](#đề-bài-cấu-trúc-dữ-liệu-và-giải-thuật) · [⬅ DEVIDE AND CONQUER ALGORITHM](#devide-and-conquer-algorithm) · [STACK ➡](#stack) <!-- nav -->
 
 ### DSA05003 - DÃY CON CHUNG DÀI NHẤT CỦA BA XÂU
 
@@ -4872,6 +4912,8 @@ Có N ngôi nhà trên một dãy phố, mỗi ngôi nhà chứa đựng một s
 
 ## STACK
 
+[⬆ Mục lục](#đề-bài-cấu-trúc-dữ-liệu-và-giải-thuật) · [⬅ DYNAMIC PROGRAMMING](#dynamic-programming) · [QUEUE ➡](#queue) <!-- nav -->
+
 ### DSA07001 - NGĂN XẾP 1
 
 Cho một ngăn xếp các số nguyên. Các thao tác gồm 3 lệnh: push, pop và show. Trong đó thao tác push kèm theo một giá trị cần thêm (không quá 1000). Hãy viết chương trình ghi ra kết quả của các lệnh show.
@@ -5555,6 +5597,8 @@ Với mỗi test, in ra “YES” nếu như S là dãy ngoặc đúng, in ra �
 
 ## QUEUE
 
+[⬆ Mục lục](#đề-bài-cấu-trúc-dữ-liệu-và-giải-thuật) · [⬅ STACK](#stack) · [GRAPH ➡](#graph) <!-- nav -->
+
 ### DSA08001 - CẤU TRÚC DỮ LIỆU HÀNG ĐỢI 1
 
 Ban đầu cho một queue rỗng. Bạn cần thực hiện các truy vấn sau:
@@ -6143,7 +6187,23 @@ Các bạn hãy tìm xem đàn bò nào có số lượng nhiều nhất?
 |---|---|
 | 1  7 3  0 0 10 0  10 0 10 5  12 5 10 5  10 5 1 5  12 5 12 7  0 7 12 7  0 7 0 0  3 4  6 6  17 3 | 2 |
 
+### DSADQ01 - ĐOẠN CON CÂN BẰNG DÀI NHẤT
+
+Cho hai số nguyên dương t và n, đồng thời cho dãy n số nguyên dương a<sub>1</sub>, a<sub>2</sub>, ..., a<sub>n</sub>. Hãy tìm đoạn con \[l, r\] dài nhất của dãy a sao cho hai phần từ bất kỳ a<sub>i</sub>, a<sub>j</sub> nằm trong đoạn \[l, r\] (l ≤ i, j ≤ r) đều thỏa mãn |a<sub>i</sub> - a<sub>j</sub>| ≤ t.
+
+**Input**
+
+Dòng đầu tiên ghi hai số nguyên t và n (0 ≤ t ≤ 2 × 10<sup>9</sup>, 1 ≤ n ≤ 3 × 10<sup>6</sup>).
+
+Dòng thứ hai là n số nguyên dương a<sub>1</sub>, a<sub>2</sub>, ..., a<sub>n</sub> (1 ≤ ai ≤  2 × 10<sup>9</sup>).
+
+**Output**
+
+In ra độ dài của đoạn con dài nhất thỏa mãn.
+
 ## GRAPH
+
+[⬆ Mục lục](#đề-bài-cấu-trúc-dữ-liệu-và-giải-thuật) · [⬅ QUEUE](#queue) · [BINARY TREE ➡](#binary-tree) <!-- nav -->
 
 ### DSA09001 - CHUYỂN DANH SÁCH CẠNH SANG DANH SÁCH KỀ
 
@@ -7153,6 +7213,8 @@ Cho đồ thị vô hướng G= được biểu diễn dưới dạng danh sách
 | 1  6 9  1 2 1 3 2 3 2 5 3 4 3 5 4 5 4 6 5 6 | 1 2 3 1 |
 
 ## BINARY TREE
+
+[⬆ Mục lục](#đề-bài-cấu-trúc-dữ-liệu-và-giải-thuật) · [⬅ GRAPH](#graph) <!-- nav -->
 
 ### DSA11001 - CÂY BIỂU THỨC 1
 

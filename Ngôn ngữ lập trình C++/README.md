@@ -1,6 +1,42 @@
 # ĐỀ BÀI: NGÔN NGỮ LẬP TRÌNH C++
 
+<!-- MUCLUC:START style=github (tự sinh bởi "python tools/add_problem.py toc", đừng sửa tay) -->
+
+**MỤC LỤC** · 25 chương · 273 bài
+
+| # | Chương | Số bài |
+|---:|---|---:|
+| 1 | [KIỂU DỮ LIỆU VÀ PHÉP TOÁN](#kiểu-dữ-liệu-và-phép-toán) | 1 |
+| 2 | [LẬP TRÌNH CƠ BẢN](#lập-trình-cơ-bản) | 5 |
+| 3 | [KIỂU DỮ LIỆU - VIẾT VÒNG LẶP - VIẾT HÀM](#kiểu-dữ-liệu---viết-vòng-lặp---viết-hàm) | 13 |
+| 4 | [BÀI TẬP C++](#bài-tập-c) | 143 |
+| 5 | [CHƯA PHÂN LOẠI](#chưa-phân-loại) | 22 |
+| 6 | [ƯỚC SỐ VÀ ƯỚC SỐ CHUNG LỚN NHẤT](#ước-số-và-ước-số-chung-lớn-nhất) | 2 |
+| 7 | [SỐ NGUYÊN TỐ VÀ ÁP DỤNG](#số-nguyên-tố-và-áp-dụng) | 1 |
+| 8 | [SỐ FIBONACCI VÀ ÁP DỤNG](#số-fibonacci-và-áp-dụng) | 1 |
+| 9 | [MẢNG MỘT CHIỀU](#mảng-một-chiều) | 5 |
+| 10 | [MẢNG HAI CHIỀU](#mảng-hai-chiều) | 7 |
+| 11 | [KIỂU DỮ LIỆU STRING VÀ ÁP DỤNG](#kiểu-dữ-liệu-string-và-áp-dụng) | 9 |
+| 12 | [XỬ LÝ SỐ NGUYÊN LỚN](#xử-lý-số-nguyên-lớn) | 1 |
+| 13 | [CÁC BÀI TOÁN CHUẨN HÓA](#các-bài-toán-chuẩn-hóa) | 2 |
+| 14 | [ỨNG DỤNG SẮP XẾP](#ứng-dụng-sắp-xếp) | 2 |
+| 15 | [TÌM KIẾM CƠ BẢN](#tìm-kiếm-cơ-bản) | 1 |
+| 16 | [ỨNG DỤNG TÌM KIẾM](#ứng-dụng-tìm-kiếm) | 1 |
+| 17 | [CẤU TRÚC CƠ BẢN](#cấu-trúc-cơ-bản) | 7 |
+| 18 | [ỨNG DỤNG CẤU TRÚC](#ứng-dụng-cấu-trúc) | 6 |
+| 19 | [MẢNG CẤU TRÚC](#mảng-cấu-trúc) | 11 |
+| 20 | [KHAI BÁO LỚP](#khai-báo-lớp) | 5 |
+| 21 | [MẢNG ĐỐI TƯỢNG](#mảng-đối-tượng) | 16 |
+| 22 | [LỚP BẠN - KẾ THỪA](#lớp-bạn---kế-thừa) | 3 |
+| 23 | [KỸ THUẬT SINH KẾ TIẾP VÀ QUAY LUI](#kỹ-thuật-sinh-kế-tiếp-và-quay-lui) | 1 |
+| 24 | [ỨNG DỤNG TOÁN HỌC](#ứng-dụng-toán-học) | 2 |
+| 25 | [VÀO RA TRÊN TỆP](#vào-ra-trên-tệp) | 6 |
+
+<!-- MUCLUC:END -->
+
 ## KIỂU DỮ LIỆU VÀ PHÉP TOÁN
+
+[⬆ Mục lục](#đề-bài-ngôn-ngữ-lập-trình-c) · [LẬP TRÌNH CƠ BẢN ➡](#lập-trình-cơ-bản) <!-- nav -->
 
 ### CHELLO - HELLO WORLD
 
@@ -17,6 +53,8 @@ Không có dữ liệu vào
 Hello PTIT.
 
 ## LẬP TRÌNH CƠ BẢN
+
+[⬆ Mục lục](#đề-bài-ngôn-ngữ-lập-trình-c) · [⬅ KIỂU DỮ LIỆU VÀ PHÉP TOÁN](#kiểu-dữ-liệu-và-phép-toán) · [KIỂU DỮ LIỆU - VIẾT VÒNG LẶP - VIẾT HÀM ➡](#kiểu-dữ-liệu---viết-vòng-lặp---viết-hàm) <!-- nav -->
 
 ### CPP0101 - TÍNH TỔNG 1 ĐẾN N
 
@@ -141,6 +179,8 @@ Giải thích:
 1000 = 132 + 232 + 313 + 323
 
 ## KIỂU DỮ LIỆU - VIẾT VÒNG LẶP - VIẾT HÀM
+
+[⬆ Mục lục](#đề-bài-ngôn-ngữ-lập-trình-c) · [⬅ LẬP TRÌNH CƠ BẢN](#lập-trình-cơ-bản) · [BÀI TẬP C++ ➡](#bài-tập-c) <!-- nav -->
 
 ### CPP0102 - CHỮ HOA – CHỮ THƯỜNG
 
@@ -404,6 +444,8 @@ Ghi ra kết quả theo mẫu.
 | 10 | \*     \* \*    \* \*    \* \*    \* \*    \* \*    \* \*    \* \*    \* \*    \* \*    \* \*    \* \*    \* \*    \* \*    \* \*    \* \*    \* \*    \* \*    \* |
 
 ## BÀI TẬP C++
+
+[⬆ Mục lục](#đề-bài-ngôn-ngữ-lập-trình-c) · [⬅ KIỂU DỮ LIỆU - VIẾT VÒNG LẶP - VIẾT HÀM](#kiểu-dữ-liệu---viết-vòng-lặp---viết-hàm) · [CHƯA PHÂN LOẠI ➡](#chưa-phân-loại) <!-- nav -->
 
 ### CPP0113 - SỐ MAY MẮN
 
@@ -3281,6 +3323,8 @@ Output:
 
 ## CHƯA PHÂN LOẠI
 
+[⬆ Mục lục](#đề-bài-ngôn-ngữ-lập-trình-c) · [⬅ BÀI TẬP C++](#bài-tập-c) · [ƯỚC SỐ VÀ ƯỚC SỐ CHUNG LỚN NHẤT ➡](#ước-số-và-ước-số-chung-lớn-nhất) <!-- nav -->
+
 ### CPP0116 - ƯỚC SỐ NGUYÊN TỐ NHỎ NHẤT
 
 Cho số tự nhiên N. Nhiệm vụ của bạn là in ra ước số nguyên tố nhỏ nhất của các số từ 1 đến N. Trong bài toán này, ta coi ước số nguyên tố nhỏ nhất của 1 là 1. Ước số nguyên tố nhỏ nhất của các số chẵn là 2. Ước số nguyên tố nhỏ nhất của các số nguyên tố là chính nó.
@@ -3720,6 +3764,8 @@ Output:
 
 ## ƯỚC SỐ VÀ ƯỚC SỐ CHUNG LỚN NHẤT
 
+[⬆ Mục lục](#đề-bài-ngôn-ngữ-lập-trình-c) · [⬅ CHƯA PHÂN LOẠI](#chưa-phân-loại) · [SỐ NGUYÊN TỐ VÀ ÁP DỤNG ➡](#số-nguyên-tố-và-áp-dụng) <!-- nav -->
+
 ### CPP0119 - ƯỚC SỐ CHIA HẾT CHO 2
 
 Cho số nguyên dương N.
@@ -3768,6 +3814,8 @@ Các thừa số nguyên tố in ra theo thứ tự tăng dần.
 
 ## SỐ NGUYÊN TỐ VÀ ÁP DỤNG
 
+[⬆ Mục lục](#đề-bài-ngôn-ngữ-lập-trình-c) · [⬅ ƯỚC SỐ VÀ ƯỚC SỐ CHUNG LỚN NHẤT](#ước-số-và-ước-số-chung-lớn-nhất) · [SỐ FIBONACCI VÀ ÁP DỤNG ➡](#số-fibonacci-và-áp-dụng) <!-- nav -->
+
 ### CPP0123 - KIỂM TRA NGUYÊN TỐ
 
 #### Một số được gọi là số nguyên tố nếu nó chỉ có 2 ước là 1 và chính nó. Số 0 và 1 không được coi là số nguyên tố.
@@ -3792,6 +3840,8 @@ In ra “YES” nếu n là số nguyên tố, và “NO” trong trường hợ
 
 ## SỐ FIBONACCI VÀ ÁP DỤNG
 
+[⬆ Mục lục](#đề-bài-ngôn-ngữ-lập-trình-c) · [⬅ SỐ NGUYÊN TỐ VÀ ÁP DỤNG](#số-nguyên-tố-và-áp-dụng) · [MẢNG MỘT CHIỀU ➡](#mảng-một-chiều) <!-- nav -->
+
 ### CPP0143 - SỐ FIBONACCI THỨ N
 
 Dãy số Fibonacci được định nghĩa theo công thức như sau:
@@ -3815,6 +3865,8 @@ Viết chương trình tính số Fibonacci thứ n (với n không quá 92)
 | 3  2  5  20 | 1  5  6765 |
 
 ## MẢNG MỘT CHIỀU
+
+[⬆ Mục lục](#đề-bài-ngôn-ngữ-lập-trình-c) · [⬅ SỐ FIBONACCI VÀ ÁP DỤNG](#số-fibonacci-và-áp-dụng) · [MẢNG HAI CHIỀU ➡](#mảng-hai-chiều) <!-- nav -->
 
 ### CPP0201 - CHÊNH LỆCH NHỎ NHẤT
 
@@ -3919,6 +3971,8 @@ Kết quả in trên màn hình :
 2 1
 
 ## MẢNG HAI CHIỀU
+
+[⬆ Mục lục](#đề-bài-ngôn-ngữ-lập-trình-c) · [⬅ MẢNG MỘT CHIỀU](#mảng-một-chiều) · [KIỂU DỮ LIỆU STRING VÀ ÁP DỤNG ➡](#kiểu-dữ-liệu-string-và-áp-dụng) <!-- nav -->
 
 ### CPP0230 - MA TRẬN NHỊ PHÂN
 
@@ -4098,6 +4152,8 @@ Với mỗi test, hãy in ra ma trận ảnh sau khi đã được làm mịn.
 Giải thích test 1: Giá trị phần tử (1,1) = floor\[(2+1+0+3+2+1+4+5+2) / 9\] = floor \[20/9\] = 2.
 
 ## KIỂU DỮ LIỆU STRING VÀ ÁP DỤNG
+
+[⬆ Mục lục](#đề-bài-ngôn-ngữ-lập-trình-c) · [⬅ MẢNG HAI CHIỀU](#mảng-hai-chiều) · [XỬ LÝ SỐ NGUYÊN LỚN ➡](#xử-lý-số-nguyên-lớn) <!-- nav -->
 
 ### CPP0314 - CHÚC MỪNG NĂM MỚI
 
@@ -4332,6 +4388,8 @@ Ghi ra kết quả bài toán
 
 ## XỬ LÝ SỐ NGUYÊN LỚN
 
+[⬆ Mục lục](#đề-bài-ngôn-ngữ-lập-trình-c) · [⬅ KIỂU DỮ LIỆU STRING VÀ ÁP DỤNG](#kiểu-dữ-liệu-string-và-áp-dụng) · [CÁC BÀI TOÁN CHUẨN HÓA ➡](#các-bài-toán-chuẩn-hóa) <!-- nav -->
+
 ### CPP0343 - DÃY ƯU THẾ
 
 Cho dãy A\[\] chỉ bao gồm các số nguyên dương không quá 105 nhưng không biết trước số phần tử của dãy. Người ta gọi dãy A\[\] là dãy ưu thế nếu thỏa mãn 1 trong 2 điều kiện sau đây:
@@ -4357,6 +4415,8 @@ Hãy kiểm tra xem dãy A\[\] có phải là dãy ưu thế hay không.
 | 2  11 22 33 44 55 66 77  23 34 45 56 67 78 89 90 121 131 141 151 161 171 | YES  NO |
 
 ## CÁC BÀI TOÁN CHUẨN HÓA
+
+[⬆ Mục lục](#đề-bài-ngôn-ngữ-lập-trình-c) · [⬅ XỬ LÝ SỐ NGUYÊN LỚN](#xử-lý-số-nguyên-lớn) · [ỨNG DỤNG SẮP XẾP ➡](#ứng-dụng-sắp-xếp) <!-- nav -->
 
 ### CPP0351 - CHUẨN HÓA HỌ TÊN
 
@@ -4418,6 +4478,8 @@ In ra các câu, mỗi câu trên một dòng theo quy tắc đã cho.
 
 ## ỨNG DỤNG SẮP XẾP
 
+[⬆ Mục lục](#đề-bài-ngôn-ngữ-lập-trình-c) · [⬅ CÁC BÀI TOÁN CHUẨN HÓA](#các-bài-toán-chuẩn-hóa) · [TÌM KIẾM CƠ BẢN ➡](#tìm-kiếm-cơ-bản) <!-- nav -->
+
 ### CPP0429 - SỬA ĐÈN
 
 Tuyến đường ven biển của thành phố Highland có N chiếc đèn. Không may cơn bão vừa rồi đã làm hỏng B chiếc đèn.
@@ -4466,6 +4528,8 @@ Với mỗi test, in ra trên một dòng “YES” nếu tìm được, và “
 
 ## TÌM KIẾM CƠ BẢN
 
+[⬆ Mục lục](#đề-bài-ngôn-ngữ-lập-trình-c) · [⬅ ỨNG DỤNG SẮP XẾP](#ứng-dụng-sắp-xếp) · [ỨNG DỤNG TÌM KIẾM ➡](#ứng-dụng-tìm-kiếm) <!-- nav -->
+
 ### CPP0445 - SỐ NHỎ NHẤT VÀ NHỎ THỨ HAI
 
 Cho mảng A\[\] gồm n phần tử, hãy đưa ra số nhỏ nhất và số nhỏ thứ hai của mảng. Nếu không có số nhỏ thứ hai, hãy đưa ra -1.
@@ -4486,6 +4550,8 @@ Cho mảng A\[\] gồm n phần tử, hãy đưa ra số nhỏ nhất và số n
 
 ## ỨNG DỤNG TÌM KIẾM
 
+[⬆ Mục lục](#đề-bài-ngôn-ngữ-lập-trình-c) · [⬅ TÌM KIẾM CƠ BẢN](#tìm-kiếm-cơ-bản) · [CẤU TRÚC CƠ BẢN ➡](#cấu-trúc-cơ-bản) <!-- nav -->
+
 ### CPP0452 - PHẦN TỬ CHUNG CỦA BA DÃY SỐ
 
 Cho mảng A\[\], B\[\], C\[\] gồm N1, N2, N3 phần tử đã được sắp xếp. Hãy đưa ra các phần tử có mặt trong cả ba mảng theo thứ tự tăng dần. Nếu không có đáp án, in ra -1.
@@ -4505,6 +4571,8 @@ Cho mảng A\[\], B\[\], C\[\] gồm N1, N2, N3 phần tử đã được sắp 
 | 1    6 5 8    1 5 10 20 40 80    6 7 20 80 100    3 4 15 20 30 70 80 120 | 20 80 |
 
 ## CẤU TRÚC CƠ BẢN
+
+[⬆ Mục lục](#đề-bài-ngôn-ngữ-lập-trình-c) · [⬅ ỨNG DỤNG TÌM KIẾM](#ứng-dụng-tìm-kiếm) · [ỨNG DỤNG CẤU TRÚC ➡](#ứng-dụng-cấu-trúc) <!-- nav -->
 
 ### CPP0501 - CẤU TRÚC ĐIỂM
 
@@ -4679,6 +4747,8 @@ Ghi thông tin sinh viên trên 1 dòng, mỗi thông tin cách nhau 1 Tab.
 
 ## ỨNG DỤNG CẤU TRÚC
 
+[⬆ Mục lục](#đề-bài-ngôn-ngữ-lập-trình-c) · [⬅ CẤU TRÚC CƠ BẢN](#cấu-trúc-cơ-bản) · [MẢNG CẤU TRÚC ➡](#mảng-cấu-trúc) <!-- nav -->
+
 ### CPP0512 - PHÉP TOÁN VỚI PHÂN SỐ
 
 Phân số là sự biểu diễn số hữu tỷ dưới dạng tỷ lệ của hai số nguyên, trong đó số ở trên được gọi là tử số, còn số ở dưới được gọi là mẫu số. Cho hai phân số A và B có tử số và mẫu số được nhập từ bàn phím.
@@ -4828,6 +4898,8 @@ Nếu 3 điểm tạo thành tam giác, in ra diện tích hình tròn ngoại t
 | 3  0 0 0 5 0 199  1 1 1 1 1 1  0 0 0 5 5 0 | INVALID  INVALID  39.270 |
 
 ## MẢNG CẤU TRÚC
+
+[⬆ Mục lục](#đề-bài-ngôn-ngữ-lập-trình-c) · [⬅ ỨNG DỤNG CẤU TRÚC](#ứng-dụng-cấu-trúc) · [KHAI BÁO LỚP ➡](#khai-báo-lớp) <!-- nav -->
 
 ### CPP0513 - DANH SÁCH SINH VIÊN - 1
 
@@ -5166,6 +5238,8 @@ Mỗi sinh viên trên một dòng. Mỗi thông tin trong danh sách cách nhau
 
 ## KHAI BÁO LỚP
 
+[⬆ Mục lục](#đề-bài-ngôn-ngữ-lập-trình-c) · [⬅ MẢNG CẤU TRÚC](#mảng-cấu-trúc) · [MẢNG ĐỐI TƯỢNG ➡](#mảng-đối-tượng) <!-- nav -->
+
 ### CPP0601 - KHAI BÁO LỚP SINH VIÊN - 1
 
 Viết chương trình khai báo lớp Sinh Viên gồm các thông tin: Mã SV, Họ tên, Lớp, Ngày sinh và Điểm GPA (dạng số thực float). Hàm khởi tạo không có tham số, gán các giá trị thuộc tính ở trạng thái mặc định (xâu ký tự rỗng, giá trị số bằng 0).
@@ -5293,6 +5367,8 @@ Ghi ra phân số tổng p + q ở dạng tối giản như trong ví dụ
 | 123 456 12 34 | 1609/2584 |
 
 ## MẢNG ĐỐI TƯỢNG
+
+[⬆ Mục lục](#đề-bài-ngôn-ngữ-lập-trình-c) · [⬅ KHAI BÁO LỚP](#khai-báo-lớp) · [LỚP BẠN - KẾ THỪA ➡](#lớp-bạn---kế-thừa) <!-- nav -->
 
 ### CPP0611 - DANH SÁCH ĐỐI TƯỢNG SINH VIÊN - 1
 
@@ -5823,6 +5899,8 @@ Ghi ra danh sách hóa đơn theo đúng thứ tự nhập, trong đó gồm cá
 
 ## LỚP BẠN - KẾ THỪA
 
+[⬆ Mục lục](#đề-bài-ngôn-ngữ-lập-trình-c) · [⬅ MẢNG ĐỐI TƯỢNG](#mảng-đối-tượng) · [KỸ THUẬT SINH KẾ TIẾP VÀ QUAY LUI ➡](#kỹ-thuật-sinh-kế-tiếp-và-quay-lui) <!-- nav -->
+
 ### CPP0631 - QUẢN LÝ BÁN HÀNG – 1
 
 Khai báo lớp Khách hàng với các thuộc tính:
@@ -6042,6 +6120,8 @@ int main()
 
 ## KỸ THUẬT SINH KẾ TIẾP VÀ QUAY LUI
 
+[⬆ Mục lục](#đề-bài-ngôn-ngữ-lập-trình-c) · [⬅ LỚP BẠN - KẾ THỪA](#lớp-bạn---kế-thừa) · [ỨNG DỤNG TOÁN HỌC ➡](#ứng-dụng-toán-học) <!-- nav -->
+
 ### CPP0714 - HOÁN VỊ LIỀN KỀ PHÍA TRƯỚC
 
 Cho số tự nhiên N và một hoán vị X\[\] của 1, 2, .., N. Nhiệm vụ của bạn là đưa ra hoán vị trước đó của X\[\]. Ví dụ N=5, X\[\] = {1, 2, 3, 4, 5} thì hoán vị trước đó của X\[\] là {5, 4, 3, 2, 1}.
@@ -6064,6 +6144,8 @@ Cho số tự nhiên N và một hoán vị X\[\] của 1, 2, .., N. Nhiệm v�
 | 2  5  1 2 3 5 4  5  5 4 3 2 1 | 1 2 3 4 5  5 4 3 1 2 |
 
 ## ỨNG DỤNG TOÁN HỌC
+
+[⬆ Mục lục](#đề-bài-ngôn-ngữ-lập-trình-c) · [⬅ KỸ THUẬT SINH KẾ TIẾP VÀ QUAY LUI](#kỹ-thuật-sinh-kế-tiếp-và-quay-lui) · [VÀO RA TRÊN TỆP ➡](#vào-ra-trên-tệp) <!-- nav -->
 
 ### CPP0761 - ƯỚC SỐ CHUNG LỚN NHẤT CỦA SỐ NGUYÊN LỚN
 
@@ -6127,6 +6209,8 @@ Giải thích:
 1000 = 132 + 232 + 313 + 323
 
 ## VÀO RA TRÊN TỆP
+
+[⬆ Mục lục](#đề-bài-ngôn-ngữ-lập-trình-c) · [⬅ ỨNG DỤNG TOÁN HỌC](#ứng-dụng-toán-học) <!-- nav -->
 
 ### CPP0801 - SAO CHÉP TỆP TIN
 

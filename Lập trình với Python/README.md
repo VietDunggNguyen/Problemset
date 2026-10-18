@@ -1,6 +1,22 @@
 # ĐỀ BÀI: LẬP TRÌNH VỚI PYTHON
 
+<!-- MUCLUC:START style=github (tự sinh bởi "python tools/add_problem.py toc", đừng sửa tay) -->
+
+**MỤC LỤC** · 5 chương · 290 bài
+
+| # | Chương | Số bài |
+|---:|---|---:|
+| 1 | [TỪ ĐIỂN](#từ-điển) | 26 |
+| 2 | [DANH SÁCH](#danh-sách) | 145 |
+| 3 | [BIẾN VÀ KIỂU DỮ LIỆU ĐƠN GIẢN](#biến-và-kiểu-dữ-liệu-đơn-giản) | 82 |
+| 4 | [CÂU LỆNH ĐIỀU KHIỂN](#câu-lệnh-điều-khiển) | 6 |
+| 5 | [ĐỐI TƯỢNG](#đối-tượng) | 31 |
+
+<!-- MUCLUC:END -->
+
 ## TỪ ĐIỂN
+
+[⬆ Mục lục](#đề-bài-lập-trình-với-python) · [DANH SÁCH ➡](#danh-sách) <!-- nav -->
 
 ### ICPC0058 - ĐỈNH THẮT
 
@@ -718,6 +734,8 @@ Với mỗi test, in ra đáp án tìm được trên một dòng.
 Giải thích test 4: Có 4 số thỏa mãn là 8, 16, 48, 56, tổng cộng có 4 chữ số thỏa mãn.
 
 ## DANH SÁCH
+
+[⬆ Mục lục](#đề-bài-lập-trình-với-python) · [⬅ TỪ ĐIỂN](#từ-điển) · [BIẾN VÀ KIỂU DỮ LIỆU ĐƠN GIẢN ➡](#biến-và-kiểu-dữ-liệu-đơn-giản) <!-- nav -->
 
 ### ICPC0101 - THU GỌN DÃY SỐ
 
@@ -4516,6 +4534,8 @@ Các xâu có dạng \*ab hoặc ab\*, mỗi loại có 26 cách.
 
 ## BIẾN VÀ KIỂU DỮ LIỆU ĐƠN GIẢN
 
+[⬆ Mục lục](#đề-bài-lập-trình-với-python) · [⬅ DANH SÁCH](#danh-sách) · [CÂU LỆNH ĐIỀU KHIỂN ➡](#câu-lệnh-điều-khiển) <!-- nav -->
+
 ### PY00000 - WELCOME TO PYTHON
 
 In ra màn hình dòng chữ:
@@ -6413,6 +6433,8 @@ Ghi ra số lượng các số có 9 chữ số
 
 ## CÂU LỆNH ĐIỀU KHIỂN
 
+[⬆ Mục lục](#đề-bài-lập-trình-với-python) · [⬅ BIẾN VÀ KIỂU DỮ LIỆU ĐƠN GIẢN](#biến-và-kiểu-dữ-liệu-đơn-giản) · [ĐỐI TƯỢNG ➡](#đối-tượng) <!-- nav -->
+
 ### PY01048 - TỔNG LIÊN TIẾP
 
 Một số số nguyên dương có thể được biểu diễn thành tổng của các số nguyên dương liên tiếp.
@@ -6544,6 +6566,8 @@ Cho số tự nhiên N và số nguyên tố P. Nhiệm vụ của bạn là tì
 | 3    62 7    76 2    3 5 | 9    73    0 |
 
 ## ĐỐI TƯỢNG
+
+[⬆ Mục lục](#đề-bài-lập-trình-với-python) · [⬅ CÂU LỆNH ĐIỀU KHIỂN](#câu-lệnh-điều-khiển) <!-- nav -->
 
 ### PY04001 - LỚP POINT
 

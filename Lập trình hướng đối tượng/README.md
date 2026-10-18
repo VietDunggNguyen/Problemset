@@ -1,6 +1,27 @@
 # ĐỀ BÀI: LẬP TRÌNH HƯỚNG ĐỐI TƯỢNG
 
+<!-- MUCLUC:START style=github (tự sinh bởi "python tools/add_problem.py toc", đừng sửa tay) -->
+
+**MỤC LỤC** · 10 chương · 292 bài
+
+| # | Chương | Số bài |
+|---:|---|---:|
+| 1 | [KIỂU DỮ LIỆU VÀ PHÉP TOÁN](#kiểu-dữ-liệu-và-phép-toán) | 1 |
+| 2 | [LẬP TRÌNH JAVA CƠ BẢN](#lập-trình-java-cơ-bản) | 27 |
+| 3 | [XÂU KÝ TỰ](#xâu-ký-tự) | 38 |
+| 4 | [MẢNG](#mảng) | 33 |
+| 5 | [CHƯA PHÂN LOẠI](#chưa-phân-loại) | 3 |
+| 6 | [KHAI BÁO LỚP VÀ ĐỐI TƯỢNG](#khai-báo-lớp-và-đối-tượng) | 24 |
+| 7 | [MẢNG ĐỐI TƯỢNG](#mảng-đối-tượng) | 81 |
+| 8 | [QUAN HỆ GIỮA CÁC LỚP](#quan-hệ-giữa-các-lớp) | 8 |
+| 9 | [VÀO RA FILE](#vào-ra-file) | 60 |
+| 10 | [ỨNG DỤNG JAVA COLLECTION](#ứng-dụng-java-collection) | 17 |
+
+<!-- MUCLUC:END -->
+
 ## KIỂU DỮ LIỆU VÀ PHÉP TOÁN
+
+[⬆ Mục lục](#đề-bài-lập-trình-hướng-đối-tượng) · [LẬP TRÌNH JAVA CƠ BẢN ➡](#lập-trình-java-cơ-bản) <!-- nav -->
 
 ### CHELLO - HELLO WORLD
 
@@ -17,6 +38,8 @@ Không có dữ liệu vào
 Hello PTIT.
 
 ## LẬP TRÌNH JAVA CƠ BẢN
+
+[⬆ Mục lục](#đề-bài-lập-trình-hướng-đối-tượng) · [⬅ KIỂU DỮ LIỆU VÀ PHÉP TOÁN](#kiểu-dữ-liệu-và-phép-toán) · [XÂU KÝ TỰ ➡](#xâu-ký-tự) <!-- nav -->
 
 ### HELLOFILE - HELLO FILE
 
@@ -541,6 +564,8 @@ Với mỗi test, ghi ra số lượng các số tạo được từ A cho giá 
 | 3  36?1?8  236428  8?3  910  ?  5 | 100  0  4 |
 
 ## XÂU KÝ TỰ
+
+[⬆ Mục lục](#đề-bài-lập-trình-hướng-đối-tượng) · [⬅ LẬP TRÌNH JAVA CƠ BẢN](#lập-trình-java-cơ-bản) · [MẢNG ➡](#mảng) <!-- nav -->
 
 ### J01020 - ĐẦY ĐỦ CÁC CHỮ SỐ
 
@@ -1371,6 +1396,8 @@ Ghi ra lần lượt các dãy con tăng dần theo thứ tự từ điển.
 
 ## MẢNG
 
+[⬆ Mục lục](#đề-bài-lập-trình-hướng-đối-tượng) · [⬅ XÂU KÝ TỰ](#xâu-ký-tự) · [CHƯA PHÂN LOẠI ➡](#chưa-phân-loại) <!-- nav -->
+
 ### J02004 - MẢNG ĐỐI XỨNG
 
 Nhập một dãy số nguyên có n phần tử (n không quá 100, các phần tử trong dãy không quá 109). Hãy viết chương trình kiểm tra xem dãy có phải đối xứng hay không. Nếu đúng in ra YES, nếu sai in ra NO.
@@ -2062,6 +2089,8 @@ Ghi ra số dòng mà số lượng số 1 nhiều hơn số lượng số 0.
 
 ## CHƯA PHÂN LOẠI
 
+[⬆ Mục lục](#đề-bài-lập-trình-hướng-đối-tượng) · [⬅ MẢNG](#mảng) · [KHAI BÁO LỚP VÀ ĐỐI TƯỢNG ➡](#khai-báo-lớp-và-đối-tượng) <!-- nav -->
+
 ### J020356 - LỰA CHỌN THAM LAM
 
 Cho hai số nguyên dương N và S. Hãy lựa chọn các chữ số phù hợp để tạo ra số nhỏ nhất và số lớn nhất có N chữ số sao cho tổng chữ số đúng bằng S.
@@ -2132,6 +2161,8 @@ Với mỗi truy vấn, liệt kê danh sách sinh viên của lớp đó theo m
 | 2  B15DCKT150  NGUYEN NGOC SON  D15CQKT02-B  sv3@stu.ptit.edu.vn  B15DCKT199  NguyeN TrONg Tung  D15CQKT02-B  sv4@stu.ptit.edu.vn | B15DCKT150 Nguyen Ngoc Son D15CQKT02-B sv3@stu.ptit.edu.vn  B15DCKT199 Nguyen Trong Tung D15CQKT02-B sv4@stu.ptit.edu.vn |
 
 ## KHAI BÁO LỚP VÀ ĐỐI TƯỢNG
+
+[⬆ Mục lục](#đề-bài-lập-trình-hướng-đối-tượng) · [⬅ CHƯA PHÂN LOẠI](#chưa-phân-loại) · [MẢNG ĐỐI TƯỢNG ➡](#mảng-đối-tượng) <!-- nav -->
 
 ### J04001 - KHAI BÁO LỚP POINT
 
@@ -2772,6 +2803,8 @@ Ghi ra danh sách đã sắp xếp theo mã môn, thứ tự từ điển.
 | 2  MUL1320  Nhap mon da phuong tien  Bai tap lon + Van dap truc tuyen  BAS1203  Giai tich 1  Thi viet + Van dap truc tuyen | BAS1203 Giai tich 1 Thi viet + Van dap truc tuyen  MUL1320 Nhap mon da phuong tien Bai tap lon + Van dap truc tuyen |
 
 ## MẢNG ĐỐI TƯỢNG
+
+[⬆ Mục lục](#đề-bài-lập-trình-hướng-đối-tượng) · [⬅ KHAI BÁO LỚP VÀ ĐỐI TƯỢNG](#khai-báo-lớp-và-đối-tượng) · [QUAN HỆ GIỮA CÁC LỚP ➡](#quan-hệ-giữa-các-lớp) <!-- nav -->
 
 ### J04018 - SỐ PHỨC
 
@@ -5681,6 +5714,8 @@ Lập bảng lương của nhân viên theo đúng thứ tự nhập. Mỗi nhâ
 
 ## QUAN HỆ GIỮA CÁC LỚP
 
+[⬆ Mục lục](#đề-bài-lập-trình-hướng-đối-tượng) · [⬅ MẢNG ĐỐI TƯỢNG](#mảng-đối-tượng) · [VÀO RA FILE ➡](#vào-ra-file) <!-- nav -->
+
 ### J06001 - TÍNH TOÁN HÓA ĐƠN BÁN QUẦN ÁO
 
 Cửa hàng quần áo bán một số loại sản phẩm, mỗi loại được chia thành hai loại: loại 1 và loại 2 với giá bán khác nhau.
@@ -6019,6 +6054,8 @@ Ghi ra tên giảng viên sau đó lần lượt các lớp môn giảng dạy (
 | 2  INT1155 Tin hoc co so 2  INT1306 Cau truc du lieu va giai thuat  2  GV01 Nguyen Van An  GV02 Hoang Binh Minh  2  GV01 INT1155 113.2  GV02 INT1306 126.72  GV01 | Giang vien: Nguyen Van An  Tin hoc co so 2 113.2  Tong: 113.20 |
 
 ## VÀO RA FILE
+
+[⬆ Mục lục](#đề-bài-lập-trình-hướng-đối-tượng) · [⬅ QUAN HỆ GIỮA CÁC LỚP](#quan-hệ-giữa-các-lớp) · [ỨNG DỤNG JAVA COLLECTION ➡](#ứng-dụng-java-collection) <!-- nav -->
 
 ### J07001 - ĐỌC FILE VĂN BẢN
 
@@ -7969,6 +8006,8 @@ Ghi ra các số nguyên dương tạo được cho mỗi String trong danh sác
 | *Gồm một ArrayList&lt;String&gt; với mỗi String là một dãy ký tự. Có thể ví dụ ở dạng ký tự như dưới đây:*  Jhsf00dklT12uhf780LPPZH  AAAAddd0000000000000000001T | 12780 18  1 1 |
 
 ## ỨNG DỤNG JAVA COLLECTION
+
+[⬆ Mục lục](#đề-bài-lập-trình-hướng-đối-tượng) · [⬅ VÀO RA FILE](#vào-ra-file) <!-- nav -->
 
 ### J08010 - TÌM TỪ THUẬN NGHỊCH DÀI NHẤT
 

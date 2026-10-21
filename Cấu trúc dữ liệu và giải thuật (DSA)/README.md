@@ -2,7 +2,7 @@
 
 <!-- MUCLUC:START style=github (tự sinh bởi "python tools/add_problem.py toc", đừng sửa tay) -->
 
-**MỤC LỤC** · 13 chương · 365 bài
+**MỤC LỤC** · 13 chương · 369 bài
 
 | # | Chương | Số bài |
 |---:|---|---:|
@@ -14,9 +14,9 @@
 | 6 | [LẬP TRÌNH CƠ BẢN](#lập-trình-cơ-bản) | 1 |
 | 7 | [GREEDY ALGORITHM](#greedy-algorithm) | 30 |
 | 8 | [DEVIDE AND CONQUER ALGORITHM](#devide-and-conquer-algorithm) | 26 |
-| 9 | [DYNAMIC PROGRAMMING](#dynamic-programming) | 43 |
+| 9 | [DYNAMIC PROGRAMMING](#dynamic-programming) | 45 |
 | 10 | [STACK](#stack) | 29 |
-| 11 | [QUEUE](#queue) | 26 |
+| 11 | [QUEUE](#queue) | 28 |
 | 12 | [GRAPH](#graph) | 49 |
 | 13 | [BINARY TREE](#binary-tree) | 28 |
 
@@ -4910,6 +4910,56 @@ Có N ngôi nhà trên một dãy phố, mỗi ngôi nhà chứa đựng một s
 |---|---|
 | 2    6    5 5 10 100 10 5    4    3 2 7 10 | 110    13 |
 
+### DSA_P040 - CHỌN Ô - 2
+
+Cho một bảng kích thước 4 x N (gồm N cột). Mỗi ô (i, j) có điểm bằng A\[i\]\[j\]. Bạn cần chọn một tập hợp các ô sao cho điểm đạt được là lớn nhất, và trong các ô được chọn, không có 2 ô nào có chung cạnh.
+
+![Ảnh](./img/DSA_P040_1.png)
+
+Ví dụ với bảng có N = 3 như hình vẽ trên. Cách chọn tập tối ưu là (3,1), (1, 2), (4, 2) và (3, 3).
+
+**Input**
+
+Dòng đầu tiên là số lượng bộ test T (T ≤ 20).
+
+Mỗi test bắt đầu bởi số nguyên dương N (1 ≤ N ≤ 10000).
+
+4 dòng tiếp theo, mỗi dòng gồm N số A\[i\]\[j\], là điểm tại ô (i,j) (-10000 ≤ A\[i\]\[j\] ≤ 10000).
+
+**Output**
+
+Với mỗi test, in ra đáp án tìm được trên một dòng.
+
+**Ví dụ**
+
+| **Input** | **Output** |
+|---|---|
+| 2<br>3<br>-1 9 3<br>-4 5 -6<br>7 8 9<br>9 7 2<br>2<br>-1 -5<br>-2 -6<br>-3 -7<br>-4 -8 | 32<br>-1 |
+
+### DSA_P296 - DÃY CON TỔNG LỚN NHẤT
+
+Cho dãy số A\[\] có N phần tử là các số nguyên, chỉ số tính từ 1.
+
+Với mỗi cặp vị trí L và R, hãy in ra tổng lớn nhất có thể của dãy con nào đó trong đoạn từ vị trí L đến vị trí R. Chú ý: dãy con có thể chứa các phần tử không liên tiếp, và đáp án có tính cả dãy con rỗng (không có phần tử nào).
+
+**Input**
+
+Dòng đầu ghi 2 số N và Q (không quá 100.000).
+
+Dòng tiếp theo ghi N số của dãy A\[\], các số có trị tuyệt đối không quá 100.000.
+
+Q dòng tiếp theo, mỗi dòng ghi một cặp số L, R (1 ≤ L ≤ R ≤ N).
+
+**Output**
+
+Ghi ra Q dòng, lần lượt là tổng lớn nhất tính được với mỗi cặp (L, R) tương ứng.
+
+**Ví dụ**
+
+| **Input** | **Output** |
+|---|---|
+| 5 2<br>-1 2 -3 4 -5<br>2 4<br>3 3 | 6<br>0 |
+
 ## STACK
 
 [⬆ Mục lục](#đề-bài-cấu-trúc-dữ-liệu-và-giải-thuật) · [⬅ DYNAMIC PROGRAMMING](#dynamic-programming) · [QUEUE ➡](#queue) <!-- nav -->
@@ -6200,6 +6250,52 @@ Dòng thứ hai là n số nguyên dương a<sub>1</sub>, a<sub>2</sub>, ..., a<
 **Output**
 
 In ra độ dài của đoạn con dài nhất thỏa mãn.
+
+### DSADQ02 - DU HÀNH SAO KIM
+
+Sỹ Nguyên đang trên hành trình thám hiểm sao Kim. Trên sao Kim có n trạm không gian, được xếp trên một đường tròn. Giữa hai trạm không gian liên tiếp có một khoảng cách nhất định. Nhiệm vụ của Sỹ Nguyên là đáp phi thuyền của mình xuống một trong n trạm không gian, rồi đi tới tất cả các trạm không gian khác theo một trong hai chiều (chiều kim đồng hồ hoặc ngược chiều kim đồng hồ) và quay trở lại trạm mình đã đáp xuống. Phi thuyền của Sỹ Nguyên sẽ tiêu tốn 1 lít xăng khi di chuyển 1 km. Ở mỗi trạm không gian có dự trữ một số lượng xăng nhất định để tiếp tế cho phi thuyền tiếp tục cuộc hành trình. Bình xăng trên phi thuyền của Sỹ Nguyên có dung tích gần như vô hạn nên có thể lấy toàn bộ xăng dự trữ ở các trạm không gian mà không sợ đầy bình.
+
+**Yêu cầu:** Cho n trạm không gian, biết khoảng cách giữa các trạm không gian liền kề trên đường tròn và lượng xăng dự trữ mà mỗi trạm có, hãy xác định xem với mỗi trạm không gian i (1 ≤ i ≤ n), Sỹ Nguyên có thể đáp phi thuyền xuống trạm i để đi được hết các trạm không gian khác rồi quay trở về trạm i mà không bị hết xăng giữa đường hay không.
+
+**Input**
+
+Dòng đầu tiên chứa một số nguyên n duy nhất 3 ≤ n ≤ 10<sup>6</sup> biểu thị số trạm không gian trên sao Kim. Các trạm không gian được đánh số từ 1 đến n. n dòng tiếp theo miêu tả tất cả các trạm và khoảng cách giữa chúng. Dòng thứ (i + 1) chứa 2 số nguyên dương p\[i\] và d\[i\] lần lượt là lượng xăng dự trữ (theo lít) ở trạm thứ i và khoảng cách (theo km) giữa trạm i và trạm (i + 1) (d\[n\] biểu diễn khoảng cách giữa trạm n và trạm 1). Tổng lượng nhiên liệu cũng như tổng khoảng cách không vượt quá 2 × 10<sup>9</sup>.
+
+**Output**
+
+Với mỗi test, in ra n dòng. Ở dòng thứ i in ra YES, nếu Sỹ Nguyên có thể hạ cánh xuống trạm i; in ra NO nếu không thể.
+
+### DSA_P097 - DI CHUYỂN ROBOT TRÊN BẢN ĐỒ LỚN
+
+Trên sân thi đấu được có giới hạn 10<sup>9</sup> x 10<sup>9</sup>, các chú robot sử dụng công nghệ dò đường line sẽ di chuyển theo các vạch chỉ đường có sẵn. Mỗi bước, robot sẽ dịch chuyển được 1 ô đơn vị theo một trong 8 hướng. Robot có thể thực hiện được phép quay 45 độ hay 90 độ nếu như ô kế cận cũng đã được kẻ vạch.
+
+Hình vẽ dưới đây minh họa các hướng di chuyển của robot trên một sân thi đấu có sẵn, các vị trí đánh dấu X mô tả robot không được đi theo hướng này.
+
+![Ảnh](./img/DSA_P097_1.png)
+
+Nhiệm vụ của bạn là hãy lập chương trình để di chuyển robot vị trí (xA, yA) tới vị trí (xB, yB) với số bước ít nhất. Input đảm bảo hai vị trí A và B chắc chắn đã được kẻ vạch.
+
+**Input**
+
+Dòng đầu tiên là số lượng bộ test T (T ≤ 10).
+
+Mỗi test gồm số nguyên xA, yA, xB, yB mô tả tọa độ hai điểm A và B.
+
+Tiếp theo là số nguyên N (N ≤ 10<sup>5</sup>), mô tả số vạch đường chỉ dẫn.
+
+N dòng tiếp theo, mỗi dòng gồm 3 số nguyên x, y1, y2 (y1 ≤ y2) cho biết có một vạch chỉ dẫn từ ô (x, y1) tới (x, y2). Input đảm bảo tổng số lượng số ô được kẻ vạch trên sân thi đấu không vượt quá 10<sup>5</sup>. Giới hạn: 0 ≤ x, y1, y2 ≤ 10<sup>9</sup>.
+
+**Output**
+
+Với mỗi test, in ra số bước di chuyển ít nhất tìm được.
+
+**Giới hạn:** 0 ≤ x, y1, y2 ≤ 10<sup>9</sup>
+
+**Ví dụ**
+
+| **Input** | **Output** |
+|---|---|
+| 2<br>0 6 2 2<br>3<br>0 6 6<br>1 6 10<br>2 2 5<br>1 1 2 10<br>2<br>1 1 4<br>2 8 10 | 5<br>-1 |
 
 ## GRAPH
 

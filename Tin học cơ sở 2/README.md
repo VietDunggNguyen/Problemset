@@ -1,4 +1,4 @@
-# ĐỀ BÀI: CẤU TRÚC DỮ LIỆU VÀ GIẢI THUẬT
+# ĐỀ BÀI: NHẬP MÔN TIN HỌC VÀ LẬP TRÌNH
 
 <!-- MUCLUC:START style=github (tự sinh bởi "python tools/add_problem.py toc", đừng sửa tay) -->
 
@@ -19,7 +19,7 @@
 
 ## KIỂU DỮ LIỆU VÀ PHÉP TOÁN
 
-[⬆ Mục lục](#đề-bài-cấu-trúc-dữ-liệu-và-giải-thuật) · [VÒNG LẶP ➡](#vòng-lặp) <!-- nav -->
+[⬆ Mục lục](#đề-bài-nhập-môn-tin-học-và-lập-trình) · [VÒNG LẶP ➡](#vòng-lặp) <!-- nav -->
 
 ### C01001 - GẤP ĐÔI
 
@@ -361,7 +361,7 @@ Hello PTIT.
 
 ## VÒNG LẶP
 
-[⬆ Mục lục](#đề-bài-cấu-trúc-dữ-liệu-và-giải-thuật) · [⬅ KIỂU DỮ LIỆU VÀ PHÉP TOÁN](#kiểu-dữ-liệu-và-phép-toán) · [VIẾT HÀM ➡](#viết-hàm) <!-- nav -->
+[⬆ Mục lục](#đề-bài-nhập-môn-tin-học-và-lập-trình) · [⬅ KIỂU DỮ LIỆU VÀ PHÉP TOÁN](#kiểu-dữ-liệu-và-phép-toán) · [VIẾT HÀM ➡](#viết-hàm) <!-- nav -->
 
 ### C01016 - BẢNG CỬU CHƯƠNG
 
@@ -1625,7 +1625,7 @@ OUT: tương ứng là 1 nếu số vị trí tương ứng đó là số nguyê
 
 ## VIẾT HÀM
 
-[⬆ Mục lục](#đề-bài-cấu-trúc-dữ-liệu-và-giải-thuật) · [⬅ VÒNG LẶP](#vòng-lặp) · [CHƯA PHÂN LOẠI ➡](#chưa-phân-loại) <!-- nav -->
+[⬆ Mục lục](#đề-bài-nhập-môn-tin-học-và-lập-trình) · [⬅ VÒNG LẶP](#vòng-lặp) · [CHƯA PHÂN LOẠI ➡](#chưa-phân-loại) <!-- nav -->
 
 ### C03001 - TỔNG CHỮ SỐ CHIA HẾT CHO 10
 
@@ -2407,7 +2407,7 @@ Nếu số chữ số là chẵn thì in ra bội số chung nhỏ nhất của 
 
 ## CHƯA PHÂN LOẠI
 
-[⬆ Mục lục](#đề-bài-cấu-trúc-dữ-liệu-và-giải-thuật) · [⬅ VIẾT HÀM](#viết-hàm) · [MẢNG MỘT CHIỀU ➡](#mảng-một-chiều) <!-- nav -->
+[⬆ Mục lục](#đề-bài-nhập-môn-tin-học-và-lập-trình) · [⬅ VIẾT HÀM](#viết-hàm) · [MẢNG MỘT CHIỀU ➡](#mảng-một-chiều) <!-- nav -->
 
 ### C03037 - ĐẾM CHỮ SỐ NGUYÊN TỐ
 
@@ -2464,7 +2464,7 @@ Nhập vào số nguyên dương a có không quá 3 chữ số. Hãy in biểu 
 
 ## MẢNG MỘT CHIỀU
 
-[⬆ Mục lục](#đề-bài-cấu-trúc-dữ-liệu-và-giải-thuật) · [⬅ CHƯA PHÂN LOẠI](#chưa-phân-loại) · [MẢNG HAI CHIỀU ➡](#mảng-hai-chiều) <!-- nav -->
+[⬆ Mục lục](#đề-bài-nhập-môn-tin-học-và-lập-trình) · [⬅ CHƯA PHÂN LOẠI](#chưa-phân-loại) · [MẢNG HAI CHIỀU ➡](#mảng-hai-chiều) <!-- nav -->
 
 ### C04001 - SỐ CHẴN TRONG DÃY
 
@@ -3459,7 +3459,7 @@ Input: Dòng đầu là số testcase, mỗi testcase gồm 3 dòng với dòng 
 
 ## MẢNG HAI CHIỀU
 
-[⬆ Mục lục](#đề-bài-cấu-trúc-dữ-liệu-và-giải-thuật) · [⬅ MẢNG MỘT CHIỀU](#mảng-một-chiều) · [XÂU KÝ TỰ ➡](#xâu-ký-tự) <!-- nav -->
+[⬆ Mục lục](#đề-bài-nhập-môn-tin-học-và-lập-trình) · [⬅ MẢNG MỘT CHIỀU](#mảng-một-chiều) · [XÂU KÝ TỰ ➡](#xâu-ký-tự) <!-- nav -->
 
 ### C05001 - MA TRẬN CHUYỂN VỊ
 
@@ -3987,7 +3987,7 @@ Ví dụ:
 
 ## XÂU KÝ TỰ
 
-[⬆ Mục lục](#đề-bài-cấu-trúc-dữ-liệu-và-giải-thuật) · [⬅ MẢNG HAI CHIỀU](#mảng-hai-chiều) · [CẤU TRÚC ➡](#cấu-trúc) <!-- nav -->
+[⬆ Mục lục](#đề-bài-nhập-môn-tin-học-và-lập-trình) · [⬅ MẢNG HAI CHIỀU](#mảng-hai-chiều) · [CẤU TRÚC ➡](#cấu-trúc) <!-- nav -->
 
 ### C06003 - ĐẾM SỐ TỪ TRONG XÂU
 
@@ -4633,7 +4633,7 @@ In:
 
 ## CẤU TRÚC
 
-[⬆ Mục lục](#đề-bài-cấu-trúc-dữ-liệu-và-giải-thuật) · [⬅ XÂU KÝ TỰ](#xâu-ký-tự) <!-- nav -->
+[⬆ Mục lục](#đề-bài-nhập-môn-tin-học-và-lập-trình) · [⬅ XÂU KÝ TỰ](#xâu-ký-tự) <!-- nav -->
 
 ### C06026 - TÌM TỪ THUẬN NGHỊCH DÀI NHẤT
 
